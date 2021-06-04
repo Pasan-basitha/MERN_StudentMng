@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import axios from "axios";
 
 export default function AddStudent(){
+    //
 
     const[name,setName]=useState("");
     const[age,setAge]=useState("");
@@ -10,7 +11,7 @@ export default function AddStudent(){
     function sendData(e){
         e.preventDefault();
         
-        const newStudent={
+        const newStudent={ 
             name,
             age,
             gender
